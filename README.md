@@ -27,5 +27,5 @@ Phase | Feature | Status |
  graph LR
      A[User] -->|Input| B(VectorDB)
      B -->|User Input + Context| C[Llama]
-     C -->|Action| A
+     C -->|Reply| A
  ```
