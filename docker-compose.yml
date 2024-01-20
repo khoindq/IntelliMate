@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  qdrant:
+    image: qdrant/qdrant
+    ports:
+      - "6333:6333" # Default Qdrant port
+    volumes:
+      - qdrant_data:/qdrant/storage
+    environment:
+      - RUST_LOG=info
+
+volumes:
+  qdrant_data:

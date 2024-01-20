@@ -23,6 +23,7 @@ Phase | Feature | Status |
  3    | ChatGPT Integration | :x: |
 
 
+##System Overview
  ```mermaid
  graph LR
      A[User] -->|Input| B(VectorDB)
